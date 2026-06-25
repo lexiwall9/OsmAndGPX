@@ -165,7 +165,7 @@ function App() {
               <div>
                 <span>Desarrollado por</span>
                 <strong>Waldir. A Apaza A.</strong>
-                <small>Ing. de Sistemas</small>
+                <small>Versión 1.0</small>
               </div>
             </div>
           </div>
