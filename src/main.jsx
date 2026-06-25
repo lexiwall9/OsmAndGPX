@@ -1,13 +1,13 @@
 import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
-  ArrowRight,
   CheckCircle2,
   Compass,
   Download,
   FileSpreadsheet,
   Github,
   Globe2,
+  GraduationCap,
   MapPinned,
   Sparkles,
   UploadCloud,
@@ -144,9 +144,6 @@ function App() {
             <MapPinned size={28} />
             <span>Excel a GPX</span>
           </div>
-          <a href="https://vercel.com" target="_blank" rel="noreferrer">
-            Listo para Vercel <ArrowRight size={16} />
-          </a>
         </nav>
 
         <div className="heroGrid">
@@ -163,6 +160,14 @@ function App() {
             <blockquote>
               "Cada linea de codigo tambien es una ruta hacia una idea mejor."
             </blockquote>
+            <div className="authorBadge">
+              <GraduationCap size={24} />
+              <div>
+                <span>Desarrollado por</span>
+                <strong>Waldir. A Apaza A.</strong>
+                <small>Ing. de Sistemas</small>
+              </div>
+            </div>
           </div>
 
           <div className="converterPanel">
@@ -240,8 +245,7 @@ function App() {
       )}
 
       <footer>
-        <span>© {new Date().getFullYear()} Waldir. A Apaza A.</span>
-        <span>Ing. de Sistemas</span>
+        <span>© {new Date().getFullYear()} Waldir. A Apaza A. Todos los derechos reservados.</span>
         <span>
           <Github size={16} /> Desarrollo con React
         </span>
